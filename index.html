@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTWW Excersize</title>
+</head>
+<body>
+    <h1>How the Web Works Excersize</h1>
+    <div>
+        <h2>Part One:</h2>
+        <p>1: HTTP is a protocol that retrieves and sends data to a database/server. it stands for Hyper Text Transfer Protocol</p>
+        <p>2: A URL is an address for any internet resource, it stands for Uinform Resource Locator</p>
+        <p>3: A DNS or Domain Name System, is basically the phonebook of the internet. A browser will translate the domain name to its respective IP address.</p>
+        <p>4: A query string is part of the URL which accesses a specific file based on the parameter passed in.</p>
+        <p>5: Two HTTP verbs (or Methods) are: <br> GET: Retrieves data from a database or server <br> POST: sends data to be saved to the database or server.</p>
+        <p>6: An HTTTP request is made when the client/browser needs to access information from an outside source.</p>
+        <p>7: An HTTP response is the response from a server after a client/browser requested it and it contains any HTML/CSS/JS/etc. that is included.</p>
+        <p>8: An HTTP header is part of the HTTP request/response that includes any additional context or metadata about the request/response.<br> Request examples are: Accept-Language, Accept. Response examples are: Set-cookie, Last-Modified.</p>
+        <p>9: The Proccesses are: Browser goes to DNS server, Retrieves IP's, Browser sends HTTP request to server, server responds with requested and relavent resources,<br>The browser takes the response and parses it into a DOM and if any additional resources are required the browser will make more HTTP requests to those resources.</p>
+    </div>
+    <div>
+        <h2>Part Two:</h2>
+        <p>1: curl -H "Accept: application/json" "https://icanhazdadjoke.com/search?term=pirate"<br> {"current_page":1,"limit":20,"next_page":1,"previous_page":1,"results":[<br>{"id":"SvzIBAQS0Dd","joke":"What did the pirate say on his 80th birthday? Aye Matey!"}<br>,{"id":"QuscibaMClb","joke":"What does a pirate pay for his corn? A buccaneer!"},<br>{"id":"2gii3LeN7Ed","joke":"Why couldn't the kid see the pirate movie? Because it was rated arrr!"},<br>{"id":"SnOf2gqjiqc","joke":"Why are pirates called pirates? Because they arrr!"},<br>{"id":"exXSCtkOKe","joke":"Why do pirates not know the alphabet? They always get stuck at \"C\"."}<br>],"search_term":"pirate","status":200,"total_jokes":5,"total_pages":1}</p>
+        <p>2: SERVER: 172.18.160.1#53</p>
+        <p>3: <b>I hosted this webpage through Python and visited it!</b></p>
+    </div>
+    <div>
+        <h2>Part Three:</h2>
+        <form action="post">
+            <input type="text" placeholder="Some Text Goes here">
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
